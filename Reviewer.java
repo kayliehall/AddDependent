@@ -1,6 +1,6 @@
 public class Reviewer {
-    
+    WorkFlow workFlow = new WorkFlow();
     DependentAdd getApplication(){
-        return new DependentAdd();
+        return workFlow.getApplication();
     }
 }
