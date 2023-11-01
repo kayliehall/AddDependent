@@ -2,5 +2,7 @@ public class Reviewer {
     WorkFlow workFlow = new WorkFlow();
     DependentAdd getApplication(){
         return workFlow.getApplication();
-    }//Just some modifications.
+    }
+    //reviews applicaiton to see if dependent exists already or not
+    //just some modifications
 }
